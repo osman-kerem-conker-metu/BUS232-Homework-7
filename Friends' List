@@ -1,0 +1,18 @@
+guests = "Ross, Rachel, Chandler, Monica, Joey, Phoebe. ".strip()
+
+print("Guests:", guests)
+
+print("Line1 = " + guests.split()[0])
+
+print("Line2 = " + guests.split()[1])
+
+print("Line3 = " + guests.split()[2])
+
+print("Line4 = " + guests.split()[3])
+
+print("Line5 = " + guests.split()[4])
+
+print("Line6 = " + guests.split()[5])
+
+print("Guests List: " + guests.split()[0], guests.split()[1], guests.split()[2], guests.split()[3], guests.split()[4], guests.split()[5])
+
